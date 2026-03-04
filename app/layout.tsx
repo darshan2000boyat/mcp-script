@@ -14,9 +14,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en">
       <body className="bg-slate-50 text-emerald-950 antialiased">
         <div className="flex min-h-dvh flex-col">
-          <SiteHeader />
           <div className="flex-1">{children}</div>
-          <SiteFooter />
         </div>
       </body>
     </html>
